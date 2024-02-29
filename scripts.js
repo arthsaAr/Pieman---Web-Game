@@ -181,7 +181,7 @@ function movedown()                                                             
                     if( currentIndexL == imageleft.length) {
                         currentIndexL = 0;
                     }
-                    pieChr.css('background-image', 'url("/images/' + imageleft[currentIndexL++] + '")')
+                    pieChr.css('background-image', 'url("images/' + imageleft[currentIndexL++] + '")')
                 }, 70);                                                                 //running the imagechanging loop(setinterval() function) in a fixed interval of 70ms to change the image and loop through the array for different images
 
                 moveleft();                                                             //once the image starts to change in fixed interval, calling moveleft function to move the pieman in the left direction when left arrow key is pressed
@@ -196,7 +196,7 @@ function movedown()                                                             
                     if( currentIndexU == imageup.length) {
                         currentIndexU = 0;
                     }
-                    pieChr.css('background-image', 'url("/images/' + imageup[currentIndexU++] + '")')
+                    pieChr.css('background-image', 'url("images/' + imageup[currentIndexU++] + '")')
                 }, 70);                                                                 //running the imagechanging loop(setinterval() function) in a fixed interval of 70ms to change the image and loop through the array for different images
                 
                 moveup();                                                               //once the image starts to change in fixed interval, calling moveup function to move the pieman in the upward direction when up arrow key is pressed
@@ -211,7 +211,7 @@ function movedown()                                                             
                         if( currentIndexR == imageright.length) {
                             currentIndexR = 0;
                         }
-                        pieChr.css('background-image', 'url("/images/' + imageright[currentIndexR++] + '")')
+                        pieChr.css('background-image', 'url("images/' + imageright[currentIndexR++] + '")')
                     }, 70);                                                             //running the imagechanging loop(setinterval() function) in a fixed interval of 70ms to change the image and loop through the array for different images
 
                     moveright();                                                        //once the image starts to change in fixed interval, calling moveright function to move the pieman in the right direction when right arrow key is pressed
@@ -226,7 +226,7 @@ function movedown()                                                             
                     if( currentIndexD == imagedown.length) {
                         currentIndexD = 0;
                     }
-                    pieChr.css('background-image', 'url("/images/' + imagedown[currentIndexD++] + '")')
+                    pieChr.css('background-image', 'url("images/' + imagedown[currentIndexD++] + '")')
                 }, 70);                                                                 //running the imagechanging loop(setinterval() function) in a fixed interval of 70ms to change the image and loop through the array for different images
 
                 movedown();                                                             //once the image starts to change in fixed interval, calling movedown function to move the pieman in the downward direction when down arrow key is pressed
