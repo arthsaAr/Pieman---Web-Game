@@ -1,5 +1,6 @@
 /* Written on | Windows 10 OS | VS Code Editor | Live Server Ran on Opera GX Browser - PieMan Web Game*/
 
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +33,7 @@ body {
     position: absolute;                                                 /*Setting the position to absolute which positions it to its closet ancestor which is pellet in this case*/
     width: 60px;
     height: 60px;
-    background-image: url('/images/stopped.PNG');                       /*Setting the image of our playable character to stopped circle at the beggining of the game*/
+    background-image: url('images/Right01.PNG');                       /*Setting the image of our playable character to stopped circle at the beggining of the game*/
     background-size: cover;
     z-index: 1;
     left: 20px;                                                         /*alighning the main pirman of our game 20px from left at the begginig of the game*/     
@@ -44,7 +45,7 @@ body {
     position: absolute;                                                 /*Setting the position to absolute which positions it to its closet ancestor which is pellet in this case*/
     width: 30px;
     height: 30px;
-    background-image: url('/images/stopped.PNG');
+    background-image: url('images/stopped.PNG');
     background-size: cover;
     z-index: 1;
     left: 10px;                                                         /*alighning the pellet of our game 20px from left at the begginig of the game*/     
