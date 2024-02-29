@@ -1,5 +1,4 @@
-// Written on | Windows 10 OS | VS Code Editor | Live Server Ran on Opera GX Browser
-//Finished writing on 12:23pm 28 Feb 2024 | Raashtra KC | 220139 | CMPT304 - PieMan Web Game
+// Written on | Windows 10 OS | VS Code Editor | Live Server Ran on Opera GX Browser - PieMan Web Game
 
 $(document).ready(function()                                                            //using this Jquery method to only run rest of the code if all the DOM objects are fully loaded
 {
