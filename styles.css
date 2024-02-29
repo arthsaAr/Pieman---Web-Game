@@ -1,0 +1,53 @@
+/* Written on | Windows 10 OS | VS Code Editor | Live Server Ran on Opera GX Browser*/
+/*Finished writing on 12:23pm 28 Feb 2024 | Raashtra KC | 220139 | CMPT304 - PieMan Web Game*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 197, 131);                                 /*Using green as a background color for all the screen */
+    font-family: sans-serif;                                            /*Using sans-serif as the font for anytext that appears in the screen*/
+    overflow: hidden;                                                   /*Hiding any item that overflows out of the body of the webpage*/
+}
+
+.PieGame                                                                /*Styling the overall dib where the pieman and pellets are included*/ 
+{
+    position: relative;                                                 /*setting the position of all the elements inside the div to normal position in the page*/
+    width: 100vw;                                                       /*setting the width of the element to 100% of viewport width*/
+    height: 100vw;                                                      /*setting the height of the element to 100% of viewport height*/
+} 
+
+.pelletCount                                                            /*Styling the pellet count display for displaying our score live on the screen*/ 
+{
+    display: flex;                                                      /*Changing the diplay to flex to better control the text div and align it to the left of the page*/
+    justify-content: left;
+    text-align: left;
+    font-size: 30px;                                                    /*Setting the fontsize of the text to 30px*/
+    padding-top: 15px;                                                  /*Keeping the text 15px down from the top part of the window*/
+    padding-left: 15px;                                                 /*Positioning the text at 15px distance from the left line of the browser window*/
+    text-shadow: 1px 1px rgb(99, 200, 231);                             /*Setting some shadow for the text*/ 
+    z-index: 1;                                                         /*giving more priority to the visibility of the pellettext by bringing it forward from other elements*/
+}
+
+#piechr                                                                 /*Styling the pieman which is our main character and is playable*/ 
+{
+    position: absolute;                                                 /*Setting the position to absolute which positions it to its closet ancestor which is pellet in this case*/
+    width: 60px;
+    height: 60px;
+    background-image: url('/images/stopped.PNG');                       /*Setting the image of our playable character to stopped circle at the beggining of the game*/
+    background-size: cover;
+    z-index: 1;
+    left: 20px;                                                         /*alighning the main pirman of our game 20px from left at the begginig of the game*/     
+    top: 10px;                                                          /*alighning the main pirman of our game 10px from top at the begginig of the game*/
+}
+
+.pellet                                                                 /*Styling the pellet which is food for our pieman*/ 
+{
+    position: absolute;                                                 /*Setting the position to absolute which positions it to its closet ancestor which is pellet in this case*/
+    width: 30px;
+    height: 30px;
+    background-image: url('/images/stopped.PNG');
+    background-size: cover;
+    z-index: 1;
+    left: 10px;                                                         /*alighning the pellet of our game 20px from left at the begginig of the game*/     
+    top: 10px;                                                          /*alighning the pellet of our game 10px from top at the begginig of the game*/
+}
